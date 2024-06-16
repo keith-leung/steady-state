@@ -1,0 +1,26 @@
+diff --git a/log4j-perf/pom.xml b/log4j-perf/pom.xml
+index 635f443db..1504719d1 100644
+--- a/log4j-perf/pom.xml
++++ b/log4j-perf/pom.xml
+@@ -38,7 +38,7 @@
+     <log4jParentDir>${basedir}/..</log4jParentDir>
+     <docLabel>Apache Log4J Performance Tests</docLabel>
+     <projectDir>/log4j-perf</projectDir>
+-    <jmh.version>1.19</jmh.version>
++    <jmh.version>1.21-Reconfigure</jmh.version>
+     <javac.target>1.7</javac.target>
+     <uberjar.name>benchmarks</uberjar.name>
+     <revapi.skip>true</revapi.skip>
+diff --git a/pom.xml b/pom.xml
+index e4b667f04..a9c448d8d 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -801,7 +801,7 @@
+         <groupId>commons-io</groupId>
+         <artifactId>commons-io</artifactId>
+         <version>2.6</version>
+-        <scope>test</scope>
++        <!-- <scope>test</scope> -->
+       </dependency>
+       <!-- Used for testing HttpAppender -->
+       <dependency>

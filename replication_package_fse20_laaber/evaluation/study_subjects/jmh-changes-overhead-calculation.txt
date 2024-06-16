@@ -1,0 +1,26 @@
+diff --git a/jmh-core/src/main/java/org/openjdk/jmh/runner/BaseRunner.java b/jmh-core/src/main/java/org/openjdk/jmh/runner/BaseRunner.java
+index 51fe298a..71378b7a 100644
+--- a/jmh-core/src/main/java/org/openjdk/jmh/runner/BaseRunner.java
++++ b/jmh-core/src/main/java/org/openjdk/jmh/runner/BaseRunner.java
+@@ -269,7 +269,7 @@ abstract class BaseRunner {
+             if (benchParams.getMode().equals(Mode.Reconfigure)) {
+                 irm.addWarmupIteration(i, ir);
+                 if (irm.checkWarmupIterationThreshold()) {
+-                    break;
++//                    break;
+                 }
+             }
+         }
+diff --git a/jmh-core/src/main/java/org/openjdk/jmh/runner/Runner.java b/jmh-core/src/main/java/org/openjdk/jmh/runner/Runner.java
+index ad57ba65..ed2bc02d 100644
+--- a/jmh-core/src/main/java/org/openjdk/jmh/runner/Runner.java
++++ b/jmh-core/src/main/java/org/openjdk/jmh/runner/Runner.java
+@@ -781,7 +781,7 @@ public class Runner extends BaseRunner {
+                                 // Set to last warmup fork to skip all not executed warmup forks
+                                 i = warmupForkCount - 1;
+                             } else {
+-                                break;
++//                                break;
+                             }
+                         }
+                     }

@@ -1,0 +1,32 @@
+project,Cov,Ci,Divergence
+arrow,	extbf{$<$0.001(0.87)}	iny{$^{^{***}}$},	extbf{$<$0.001(0.63)}	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{$<$0.001(0.87)}	iny{$^{^{***}}$}
+byte-buddy,	extbf{0.002(0.56)}	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.21)	iny{$^{^{***}}$},	extbf{$<$0.001(0.59)}	iny{$^{^{*	extcolor{white}{**}}}$}
+camel,	extbf{$<$0.001(0.75)}	iny{$^{^{***}}$},0.002(0.49)	iny{$^{^{	extcolor{white}{***}}}$},	extbf{$<$0.001(0.77)}	iny{$^{^{***}}$}
+cantaloupe,$<$0.001(0.22)	iny{$^{^{***}}$},$<$0.001(0.05)	iny{$^{^{***}}$},$<$0.001(0.06)	iny{$^{^{***}}$}
+client_java,	extbf{$<$0.001(0.66)}	iny{$^{^{**	extcolor{white}{*}}}$},$<$0.001(0.21)	iny{$^{^{***}}$},	extbf{$<$0.001(0.66)}	iny{$^{^{**	extcolor{white}{*}}}$}
+crate,	extbf{$<$0.001(0.62)}	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.41)	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{$<$0.001(0.65)}	iny{$^{^{**	extcolor{white}{*}}}$}
+eclipse-collections,	extbf{$<$0.001(0.59)}	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.42)	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{$<$0.001(0.58)}	iny{$^{^{*	extcolor{white}{**}}}$}
+h2o-3,	extbf{$<$0.001(0.62)}	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.44)	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{0.005(0.57)}	iny{$^{^{*	extcolor{white}{**}}}$}
+hazelcast,$<$0.001(0.39)	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.32)	iny{$^{^{**	extcolor{white}{*}}}$},0.078(-)	iny{$^{^{	extcolor{white}{***}}}$}
+HdrHistogram,$<$0.001(0.34)	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.25)	iny{$^{^{***}}$},$<$0.001(0.33)	iny{$^{^{**	extcolor{white}{*}}}$}
+hive,$<$0.001(0.06)	iny{$^{^{***}}$},$<$0.001(0.06)	iny{$^{^{***}}$},$<$0.001(0.06)	iny{$^{^{***}}$}
+imglib2,$<$0.001(0.4)	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.34)	iny{$^{^{**	extcolor{white}{*}}}$},$<$0.001(0.39)	iny{$^{^{*	extcolor{white}{**}}}$}
+JCTools,$<$0.001(0.36)	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.27)	iny{$^{^{***}}$},0.002(0.42)	iny{$^{^{*	extcolor{white}{**}}}$}
+jdbi,	extbf{$<$0.001(0.65)}	iny{$^{^{**	extcolor{white}{*}}}$},0.004(0.47)	iny{$^{^{	extcolor{white}{***}}}$},	extbf{0.002(0.63)}	iny{$^{^{*	extcolor{white}{**}}}$}
+jetty.project,$<$0.001(0.37)	iny{$^{^{*	extcolor{white}{**}}}$},$<$0.001(0.28)	iny{$^{^{***}}$},$<$0.001(0.42)	iny{$^{^{*	extcolor{white}{**}}}$}
+jgrapht,	extbf{$<$0.001(0.67)}	iny{$^{^{**	extcolor{white}{*}}}$},$<$0.001(0.37)	iny{$^{^{*	extcolor{white}{**}}}$},0.363(-)	iny{$^{^{	extcolor{white}{***}}}$}
+kafka,	extbf{$<$0.001(0.65)}	iny{$^{^{**	extcolor{white}{*}}}$},0.18(-)	iny{$^{^{	extcolor{white}{***}}}$},	extbf{$<$0.001(0.64)}	iny{$^{^{*	extcolor{white}{**}}}$}
+logbook,	extbf{$<$0.001(0.76)}	iny{$^{^{***}}$},$<$0.001(0.33)	iny{$^{^{**	extcolor{white}{*}}}$},	extbf{$<$0.001(0.75)}	iny{$^{^{***}}$}
+logging-log4j2,	extbf{$<$0.001(0.75)}	iny{$^{^{***}}$},0.525(-)	iny{$^{^{	extcolor{white}{***}}}$},	extbf{$<$0.001(0.75)}	iny{$^{^{***}}$}
+netty,	extbf{$<$0.001(0.69)}	iny{$^{^{**	extcolor{white}{*}}}$},	extbf{$<$0.001(0.58)}	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{$<$0.001(0.74)}	iny{$^{^{***}}$}
+presto,0.075(-)	iny{$^{^{	extcolor{white}{***}}}$},$<$0.001(0.15)	iny{$^{^{***}}$},$<$0.001(0.3)	iny{$^{^{**	extcolor{white}{*}}}$}
+protostuff,$<$0.001(0.34)	iny{$^{^{**	extcolor{white}{*}}}$},$<$0.001(0.23)	iny{$^{^{***}}$},$<$0.001(0.35)	iny{$^{^{*	extcolor{white}{**}}}$}
+r2dbc-h2,$<$0.001(0.2)	iny{$^{^{***}}$},$<$0.001(0.05)	iny{$^{^{***}}$},$<$0.001(0.35)	iny{$^{^{*	extcolor{white}{**}}}$}
+rdf4j,	extbf{$<$0.001(0.7)}	iny{$^{^{**	extcolor{white}{*}}}$},0.383(-)	iny{$^{^{	extcolor{white}{***}}}$},0.25(-)	iny{$^{^{	extcolor{white}{***}}}$}
+RoaringBitmap,	extbf{$<$0.001(0.83)}	iny{$^{^{***}}$},	extbf{$<$0.001(0.71)}	iny{$^{^{**	extcolor{white}{*}}}$},	extbf{$<$0.001(0.8)}	iny{$^{^{***}}$}
+RxJava,	extbf{$<$0.001(0.72)}	iny{$^{^{***}}$},	extbf{0.021(0.6)}	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{$<$0.001(0.72)}	iny{$^{^{***}}$}
+SquidLib,	extbf{$<$0.001(0.67)}	iny{$^{^{**	extcolor{white}{*}}}$},	extbf{$<$0.001(0.53)}	iny{$^{^{	extcolor{white}{***}}}$},	extbf{$<$0.001(0.64)}	iny{$^{^{**	extcolor{white}{*}}}$}
+tinkerpop,0.33(-)	iny{$^{^{	extcolor{white}{***}}}$},$<$0.001(0.32)	iny{$^{^{**	extcolor{white}{*}}}$},	extbf{0.008(0.52)}	iny{$^{^{	extcolor{white}{***}}}$}
+vert.x,0.958(-)	iny{$^{^{	extcolor{white}{***}}}$},$<$0.001(0.13)	iny{$^{^{***}}$},	extbf{0.03(0.62)}	iny{$^{^{*	extcolor{white}{**}}}$}
+zipkin,$<$0.001(0.31)	iny{$^{^{**	extcolor{white}{*}}}$},$<$0.001(0.2)	iny{$^{^{***}}$},$<$0.001(0.41)	iny{$^{^{*	extcolor{white}{**}}}$}
+Total,	extbf{$<$0.001(0.55)}	iny{$^{^{	extcolor{white}{***}}}$},$<$0.001(0.36)	iny{$^{^{*	extcolor{white}{**}}}$},	extbf{$<$0.001(0.55)}	iny{$^{^{	extcolor{white}{***}}}$}

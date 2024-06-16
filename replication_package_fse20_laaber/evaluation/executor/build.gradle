@@ -1,0 +1,56 @@
+buildscript {
+    // version variables
+    ext.kotlin_version = "1.3.41"
+    ext.log4j2_version = "2.11.1"
+    ext.opencsv_version = '4.3.2'
+    ext.shadow_version = "5.0.0"
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+        classpath("com.github.jengelman.gradle.plugins:shadow:$shadow_version")
+    }
+}
+
+group = "smb.conf.executor"
+version = "1.0-SNAPSHOT"
+
+apply(plugin: "kotlin")
+apply(plugin: "application")
+apply(plugin: "com.github.johnrengelman.shadow")
+
+sourceCompatibility = 1.8
+
+mainClassName = 'smb.conf.executor.MainKt'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version")
+    compile("org.jetbrains.kotlin:kotlin-reflect:$kotlin_version")
+    compile("org.apache.logging.log4j:log4j-api:$log4j2_version")
+    compile("org.apache.logging.log4j:log4j-core:$log4j2_version")
+    compile("com.opencsv:opencsv:$opencsv_version")
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+shadowJar {
+    manifest {
+        attributes 'Main-Class': "$mainClassName"
+    }
+    archiveName = "executor.jar"
+}

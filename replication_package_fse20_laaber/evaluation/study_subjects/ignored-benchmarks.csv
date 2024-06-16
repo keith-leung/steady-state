@@ -1,0 +1,39 @@
+﻿project;benchmark;params;reason
+log4j2;org.apache.logging.log4j.perf.jmh.Log4j2AppenderComparisonBenchmark.appenderMMap;;Execution stucks
+log4j2;org.apache.logging.log4j.perf.jmh.Log4j2AppenderComparisonBenchmark.end2endMMap;;Execution stucks
+log4j2;org.apache.logging.log4j.perf.jmh.ReflectionBenchmark.test05_getStackTraceClassForClassName;;Fails if more than 16 iterations are executed
+jenetics;io.jenetics.util.RandomEnginePerf$Base.nextInt;;Benchmarks defined in abstract class
+jenetics;io.jenetics.util.RandomEnginePerf$Base.nextLong;;Benchmarks defined in abstract class
+jenetics;io.jenetics.util.RandomEnginePerf$Base.nextFloat;;Benchmarks defined in abstract class
+jenetics;io.jenetics.util.RandomEnginePerf$Base.nextDouble;;Benchmarks defined in abstract class
+zipkin;zipkin2.SpanBenchmarks.deserialize_kryo;;Execution stucks
+zipkin;zipkin2.SpanBenchmarks.serialize_kryo;;com.esotericsoftware.kryo.KryoException
+zipkin;zipkin2.internal.WriteBufferBenchmarks.writeVarint_32;;java.lang.ArrayOutOfBoundsExeption
+zipkin;zipkin2.internal.WriteBufferBenchmarks.writeVarint_64;;java.lang.ArrayOutOfBoundsExeption
+zipkin;zipkin2.internal.WriteBufferBenchmarks.writeLongLe;;java.lang.ArrayOutOfBoundsExeption
+zipkin;zipkin2.collector.MetricsBenchmarks.incrementBytes_shortSpans_Actuate;;java.lang.IllegalStateException
+zipkin;zipkin2.collector.MetricsBenchmarks.incrementBytes_mediumSpans_Actuate;;java.lang.IllegalStateException
+zipkin;zipkin2.collector.MetricsBenchmarks.incrementBytes_longSpans_Actuate;;java.lang.IllegalStateException
+zipkin;zipkin2.codec.ProtoCodecBenchmarks.bytebuffer_zipkinDecoder;;java.lang.NoSuchMethodError
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=1&work=1;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=1&work=10;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=1&work=100;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=1&work=1000;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=8&work=1;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=8&work=10;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=8&work=100;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=8&work=1000;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=32&work=1;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=32&work=10;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=32&work=100;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=32&work=1000;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=128&work=1;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=128&work=10;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=128&work=100;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=128&work=1000;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=256&work=1;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=256&work=10;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=256&work=100;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlowableFlatMapCompletableAsyncPerf.flatMapCompletable;items=1000000&maxConcurrency=256&work=1000;Execution of a single invocation takes over 60 seconds
+rxjava;io.reactivex.FlatMapJustPerf.flowable;times=1;java.lang.NullPointerException
+rxjava;io.reactivex.FlatMapJustPerf.observable;times=1;java.lang.NullPointerException
